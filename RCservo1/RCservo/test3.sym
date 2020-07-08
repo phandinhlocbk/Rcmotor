@@ -1,0 +1,88 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+005     PORTA
+007     PORTC
+008     PORTE
+008     PORTD
+015-016 CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B-01C CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @INTERRUPT_AREA
+021     @INTERRUPT_AREA
+022     @INTERRUPT_AREA
+023     @INTERRUPT_AREA
+024     @INTERRUPT_AREA
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028-034 maso
+035     i
+036     j
+037     k
+038     l
+039     a
+03A     m
+03B     @TRIS_C
+03C     hienthi.a
+03D     hienthi.b
+03E     hienthi.c
+03F     hienthi.d
+040     hienthi.@SCRATCH
+041     @delay_us1.P1
+042     @MUL88.P1
+042     RB_itr.@SCRATCH
+043     @MUL88.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+07F     @INTERRUPT_AREA
+0FF     @INTERRUPT_AREA
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+17F     @INTERRUPT_AREA
+1FF     @INTERRUPT_AREA
+27F     @INTERRUPT_AREA
+2FF     @INTERRUPT_AREA
+37F     @INTERRUPT_AREA
+3FF     @INTERRUPT_AREA
+
+009F  @delay_us1
+003A  RB_itr
+0055  @MUL88
+009A  ngat
+00AE  hienthi
+010F  MAIN
+010F  @cinit
+
+Project Files:
+    test3.c
+    ..\..\..\..\Program Files\PICC\devices\16F887.h
+
+Units:
+    C:\Users\ven\Desktop\RCservo\test3.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      0
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      C:\Users\ven\Desktop\RCservo\test3.err
+    Ext Symbols: C:\Users\ven\Desktop\RCservo\test3.esym
+    INHX8:       C:\Users\ven\Desktop\RCservo\test3.hex
+    Symbols:     C:\Users\ven\Desktop\RCservo\test3.sym
+    List:        C:\Users\ven\Desktop\RCservo\test3.lst
+    Debug/COFF:  C:\Users\ven\Desktop\RCservo\test3.cof
+    Project:     C:\Users\ven\Desktop\RCservo\test3.PJT
+    Call Tree:   test3.tre
+    Statistics:  test3.sta

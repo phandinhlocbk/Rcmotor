@@ -1,0 +1,104 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004     @WRITE_PROGRAM_MEMORY8.P2
+006     portB
+007     portC
+008     portD
+015     CCP_1_LOW
+015-016 CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B-01C CCP_2
+01C     CCP_2_HIGH
+020     angle
+021     mode
+022     i
+023     a
+024     old
+025-026 delay1
+027-028 delay2
+029     tocdo.a
+029     tocdoam.a
+029     tocdoamnguoc.a
+029     duongnguoc.a
+029     MAIN.@SCRATCH
+02A     tocdoam.n
+02A     duongnguoc.n
+02A     tocdo.n
+02A     tocdoamnguoc.n
+02B     tocdoamnguoc.f
+02B     duongnguoc.f
+02B     tocdoam.f
+02B     tocdo.f
+02C-02F @ADDFF.P1
+02C-02D @ITOF.P2
+02C-02F @SFTOI.P3
+02C-02F @MULFF.P4
+02C     tocdo.@SCRATCH
+02C     duongnguoc.@SCRATCH
+02C     tocdoam.@SCRATCH
+02C     tocdoamnguoc.@SCRATCH
+02D     @delay_us1.P1
+02D     @delay_ms1.P2
+030-033 @ADDFF.P1
+030-033 @MULFF.P2
+034     @MULFF.@SCRATCH
+034     @ADDFF.@SCRATCH
+035     @MULFF.@SCRATCH
+035     @ADDFF.@SCRATCH
+036     @MULFF.@SCRATCH
+036     @ADDFF.@SCRATCH
+037     @MULFF.@SCRATCH
+037     @ADDFF.@SCRATCH
+038     @MULFF.@SCRATCH
+038     @ADDFF.@SCRATCH
+039     @ADDFF.@SCRATCH
+03A     @ADDFF.@SCRATCH
+03B     @ADDFF.@SCRATCH
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+07B     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+0205  @delay_ms1
+01F6  @delay_us1
+0305  tocdo
+0004  @ITOF
+0021  @MULFF
+0096  @ADDFF
+01D7  @SFTOI
+037B  duongnguoc
+0219  tocdoam
+028F  tocdoamnguoc
+03F1  MAIN
+03F1  @cinit
+
+Project Files:
+    rc.c
+    ..\..\..\..\Program Files (x86)\PICC\devices\16F887.h
+
+Units:
+    C:\Users\phandinhloc\Downloads\RCservo\rc.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      0
+    Short,Int,Long: 1,8,16
+
+Output Files:
+    Errors:      C:\Users\phandinhloc\Downloads\RCservo\rc.err
+    Ext Symbols: C:\Users\phandinhloc\Downloads\RCservo\rc.esym
+    INHX8:       C:\Users\phandinhloc\Downloads\RCservo\rc.hex
+    Symbols:     C:\Users\phandinhloc\Downloads\RCservo\rc.sym
+    List:        C:\Users\phandinhloc\Downloads\RCservo\rc.lst
+    Debug/COFF:  C:\Users\phandinhloc\Downloads\RCservo\rc.cof
+    Project:     C:\Users\phandinhloc\Downloads\RCservo\rc.PJT
+    Call Tree:   rc.tre
+    Statistics:  rc.sta

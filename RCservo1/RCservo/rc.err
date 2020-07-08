@@ -1,0 +1,4 @@
+>>> Warning 202 "rc.c" Line 8(5,9): Variable never used:   mode
+>>> Warning 202 "rc.c" Line 8(12,13): Variable never used:   i
+      Memory usage:   ROM=16%      RAM=4% - 9%
+      0 Errors,  2 Warnings.
